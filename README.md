@@ -3,7 +3,7 @@ Module 6 Challenge using Python and APIs to search for vacation spots by allowin
 
 ##  Approach
 ## Weather Database
-Random GPS coordinates are generated and passed to the OpenWeather API which returns weather conditions.
+Random GPS coordinates are generated and citipy returns a nearest city.  This city is then passed to the OpenWeather API which returns weather conditions.
 
 ## Vacation Search
 By limiting cities according to the users desirable temperature ranges, a subset for vacation planning is offered.
